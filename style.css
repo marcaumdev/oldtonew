@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(./img/background-antigo.jpeg);
+}
+
+header{
+    background-color: rgb(228, 199, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 5%;
+}
+
+header span{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+nav a{
+    color: black;
+    text-transform: uppercase;
+}
+
+section{
+    background-color: rgb(228, 199, 51);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    height: 577px;
+}
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.artistas{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistas div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.artistas div img{
+    width: 230px;
+}
+
+.artistas div p{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: rgb(228, 199, 51);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+footer span{
+    text-transform: uppercase;
+}
