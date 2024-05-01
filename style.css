@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,11 +12,15 @@
     margin: 0 auto;
 }
 
-body{
+.body-velho{
     background-image: url(./img/background-antigo.jpeg);
 }
 
-header{
+.body-novo{
+    background-image: linear-gradient( to bottom, purple, blue ); 
+}
+
+.header-velho{
     background-color: rgb(228, 199, 51);
     display: flex;
     justify-content: space-between;
@@ -23,23 +29,52 @@ header{
     padding: 0 5%;
 }
 
-header span{
+.header-novo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 5%;
+}
+
+.header-velho span{
     font-size: 20px;
     text-transform: uppercase;
 }
 
-nav{
+.header-novo span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-velho{
     display: flex;
     justify-content: space-between;
     width: 40%;
 }
 
-nav a{
+.nav-novo{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-velho a{
     color: black;
     text-transform: uppercase;
 }
 
-section{
+.nav-novo a{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.section-velho{
     background-color: rgb(228, 199, 51);
     align-items: center;
     display: flex;
@@ -48,19 +83,41 @@ section{
     height: 577px;
 }
 
-h1{
+.section-novo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    height: 577px;
+}
+
+.h1-velho{
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
 
-.artistas{
+.h1-novo{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.artistas-velho{
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
 
-.artistas div{
+.artistas-novo{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistas-velho div{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -68,21 +125,86 @@ h1{
     height: 300px;
 }
 
-.artistas div img{
+.artistas-novo div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+#imagens div img{
     width: 230px;
 }
 
-.artistas div p{
+.artistas-novo div img{
+    border-radius: 15px;
+}
+
+.artistas-velho div p{
     text-transform: uppercase;
 }
 
-footer{
+.artistas-novo div p{
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
+
+.botao-velho{
+    border: none;
+    background-color: brown;
+    color: white;
+    margin-top: 50px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+.botao-novo{
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.botao-novo:hover{
+    cursor: pointer;
+    background-color: lightsalmon;
+    color: lightcyan;
+    font-family: "Roboto", sans-serif;
+}
+
+.botao-novo:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: lightslategray;
+}
+
+.footer-velho{
     background-color: rgb(228, 199, 51);
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
 }
 
-footer span{
+.footer-novo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.footer-velho span{
     text-transform: uppercase;
+}
+
+.footer-novo span{
+    text-transform: uppercase;
+    color: white;
+    font-family: "Roboto", sans-serif;
 }
